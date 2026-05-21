@@ -122,12 +122,12 @@ Essa organização evita a mistura de artefatos e facilita bastante a manutenç�
 
 | VM | Função | vCPU | RAM | Swap | Disco | Local | Observações |
 |---|---:|---:|---:|---:|---:|---|---|
-| Kali Admin | Administração, análise, captura e testes | 2 | 2 GB | 4 GB | 16 GB | NVMe interno | VM principal, headless |
-| SCADA HMI | Supervisão, alarmes e dashboards web | 2 | 2 GB | 4 GB | 14 GB | NVMe interno | Headless, web-based |
-| PLC OpenPLC | Controle industrial e Modbus TCP | 1 | 1 GB | 2 GB | 10 GB | NVMe interno | Leve e estável |
-| Database | Histórico, eventos e logs | 1 | 1 GB | 2 GB | 14 GB | HD externo | PostgreSQL headless |
-| Sensor Node | Simulação de sensores | 1 | 512 MB | 1 GB | 6 GB | HD externo | Scripts Python |
-| linux-template | Base de clonagem | 1 | 1 GB | 1 GB | 12 GB | HD externo | Só molde |
+| Kali Admin | Administração, análise, captura e testes | 2 | 3 GB | 6 GB | 24 GB | NVMe interno | VM principal, headless |
+| SCADA HMI | Supervisão, alarmes e dashboards web | 2 | 3 GB | 6 GB | 15 GB | NVMe interno | Headless, web-based |
+| PLC OpenPLC | Controle industrial e Modbus TCP | 1 | 1,5 GB | 4 GB | 15 GB | NVMe interno | Leve e estável |
+| Database | Histórico, eventos e logs | 1 | 1,5 GB | 4 GB | 15 GB | HD externo | PostgreSQL headless |
+| Sensor Node | Simulação de sensores | 1 | 718 MB | 1 GB | 15 GB | HD externo | Scripts Python |
+| linux-template | Base de clonagem | 1 | 1,5 GB | 1 GB | 15 GB | HD externo | Só molde |
 
 RESUMO
 - RAM total provisionada: 7,5 GB
