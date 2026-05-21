@@ -130,9 +130,9 @@ Essa organização evita a mistura de artefatos e facilita bastante a manutenç�
 | linux-template | Base de clonagem | 1 | 1,5 GB | 1 GB | 15 GB | HD externo | Só molde |
 
 RESUMO
-- RAM total provisionada: 7,5 GB
-- Swap total provisionado: 14 GB
-- Disco provisionado total: 72 GB
+- RAM total provisionada: 11,25 GB
+- Swap total provisionado: 22 GB
+- Disco provisionado total: 99 GB
 
 ================================================================================
 5) ESPECIFICAÇÕES DAS MÁQUINAS VIRTUAIS
